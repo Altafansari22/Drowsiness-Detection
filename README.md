@@ -2,6 +2,17 @@
 
 This project is a real-time drowsiness detection system built using Python, OpenCV, and dlib. It helps in monitoring driver fatigue by analyzing eye movement and triggering alerts when signs of drowsiness are detected. The system uses facial landmark detection to track the Eye Aspect Ratio (EAR) and determines if the eyes remain closed for a prolonged duration, indicating drowsiness.
 
+# Download the Pre-trained Shape Predictor
+The project requires shape_predictor_68_face_landmarks.dat, a pre-trained model for facial landmark detection.
+
+🔗 Download it from here:
+http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+
+Then:
+Extract the .bz2 file.
+Place the shape_predictor_68_face_landmarks.dat file in the project directory (or specify its path in the script).
+
+
 # Features
 
 * Real-time webcam feed monitoring
